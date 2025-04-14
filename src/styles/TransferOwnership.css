@@ -1,0 +1,57 @@
+.transfer-container {
+    padding: 2rem;
+    background-color: #f5f7fb;
+    border-radius: 12px;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  .transfer-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    margin-bottom: 1.5rem;
+  }
+  
+  .transfer-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .transfer-table th,
+  .transfer-table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .transfer-table th {
+    background-color: #e2e8f0;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .transfer-table tr:hover {
+    background-color: #f0f4ff;
+  }
+  
+  .transfer-table button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transfer-table button:hover {
+    background-color: #4f46e5;
+  }
+  

@@ -1,0 +1,40 @@
+.add-land-container {
+    background-color: #fff0f5;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 12px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .add-land-container h2 {
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .add-land-container input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .add-land-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+  .add-land-container button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,59 @@
+[
+  {
+    "inputs": [
+      { "internalType": "string", "name": "_title", "type": "string" },
+      { "internalType": "string", "name": "_location", "type": "string" },
+      { "internalType": "string", "name": "_price", "type": "string" },
+      { "internalType": "string", "name": "_documentURL", "type": "string" },
+      { "internalType": "string", "name": "_imageURL", "type": "string" }
+    ],
+    "name": "addLand",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getAllLands",
+    "outputs": [
+      {
+        "components": [
+          { "internalType": "string", "name": "title", "type": "string" },
+          { "internalType": "string", "name": "location", "type": "string" },
+          { "internalType": "string", "name": "price", "type": "string" },
+          { "internalType": "string", "name": "documentURL", "type": "string" },
+          { "internalType": "string", "name": "imageURL", "type": "string" },
+          { "internalType": "address", "name": "owner", "type": "address" },
+          { "internalType": "bool", "name": "isAvailable", "type": "bool" }
+        ],
+        "internalType": "struct LandRegistry.Land[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getMyLands",
+    "outputs": [
+      {
+        "components": [
+          { "internalType": "string", "name": "title", "type": "string" },
+          { "internalType": "string", "name": "location", "type": "string" },
+          { "internalType": "string", "name": "price", "type": "string" },
+          { "internalType": "string", "name": "documentURL", "type": "string" },
+          { "internalType": "string", "name": "imageURL", "type": "string" },
+          { "internalType": "address", "name": "owner", "type": "address" },
+          { "internalType": "bool", "name": "isAvailable", "type": "bool" }
+        ],
+        "internalType": "struct LandRegistry.Land[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

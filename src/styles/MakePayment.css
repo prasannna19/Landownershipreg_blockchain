@@ -1,0 +1,28 @@
+.make-payment-container {
+  padding: 20px;
+  background: #fffbe7;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.payment-card {
+  border: 2px solid #999;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #f0f7ff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

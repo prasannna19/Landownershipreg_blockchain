@@ -1,0 +1,16 @@
+.approve-requests-container {
+  padding: 2rem;
+}
+
+.request-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f9f9f9;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+}

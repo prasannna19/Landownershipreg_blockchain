@@ -1,0 +1,59 @@
+.buyer-dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background: #fdf6ff; /* soft lavender */
+}
+
+.sidebar {
+  width: 260px;
+  padding: 20px;
+  background: url("/land-bg.jpg") no-repeat center center/cover;
+  background-color: rgba(255, 255, 255, 0.8); /* fallback & blending */
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(3px);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  color: #4b0082;
+  margin-bottom: 25px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 12px 15px;
+  background: linear-gradient(145deg, #f8c8dc, #ffe6e6);
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar ul li a:hover {
+  background: linear-gradient(145deg, #e6b3cc, #ffd6d6);
+  transform: scale(1.03);
+}
+
+.content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #fff0f5;
+}
+
+.content h3 {
+  color: #6a0dad;
+  font-size: 24px;
+}

@@ -1,0 +1,61 @@
+.seller-dashboard {
+  background-color: #ffe6f0;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-buttons button {
+  margin: 0.5rem;
+  padding: 0.5rem 1.3rem;
+  background-color: #8a68f0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-land-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  background-color: #fff5fa;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+}
+
+.add-land-vertical input {
+  margin: 0.4rem;
+  padding: 0.6rem;
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-land-vertical button {
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.land-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
